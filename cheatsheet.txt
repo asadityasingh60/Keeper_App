@@ -1,0 +1,11 @@
+git config --global user.name "Aditya"
+git config --global user.email "asadityasingh60@gmail.com"
+
+git init
+git add .
+git commit -m "meaningful message"
+git remote add origin <SSH path of Git repo>
+
+// Add a SSH key to your account
+
+git push origin master
